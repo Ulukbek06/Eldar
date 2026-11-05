@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    margin: 0;
+}
+
+
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 40px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#home, #about, #contacts {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.card {
+    display: inline-block;
+    background-color: white;
+    width: 280px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    vertical-align: top;
+    height: 400px;
+}
+
+.photo {
+    width: 200px;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+.link {
+    color: blue;
+}
+
+/* Страницы с описанием товаров */
+.detail {
+    width: 400px;
+}
